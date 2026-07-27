@@ -1,8 +1,23 @@
 aid: gigacrop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gigacrop.png
 name: GigaCrop
-description: 'GigaCrop is a company surfaced as a portfolio company of playground-global and added to
-  the API Evangelist network as a stub for enrichment. Sector: engineered-biology. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'GigaCrop is an agricultural biotechnology company engineering the photosynthesis
+  pathway to dramatically increase crop productivity. Founded by Chris Eiben, PhD, the company
+  combines enzyme engineering and machine learning to optimize the RuBisCo enzyme, aiming to roughly
+  double yields in staple crops such as corn and soy and to break past the limits that have held annual
+  yield gains near one percent for a century. Backed by Playground Global, GigaCrop is working to make
+  agriculture both more sustainable and more abundant.'
 url: https://raw.githubusercontent.com/api-evangelist/gigacrop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Engineered Biology
+- Agriculture
+- Biotechnology
+- AgTech
+- Photosynthesis
+- Machine Learning
+- Sustainability
+- Crop Science
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gigacrop-domain-security.yml
+- type: Blog
+  url: https://www.gigacrop.com/news
 - type: Website
   url: https://www.gigacrop.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
