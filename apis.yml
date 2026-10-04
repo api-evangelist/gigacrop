@@ -46,7 +46,7 @@ tags:
 - Biotechnology
 - AgTech
 - Photosynthesis
-- Machine-Learning
+- Machine Learning
 - Sustainability
 - Crop Science
 tags_raw:
@@ -59,6 +59,7 @@ tags_raw:
 - Machine Learning
 - Sustainability
 - Crop Science
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
